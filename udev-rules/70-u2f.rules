@@ -1,0 +1,12 @@
+# Yubico YubiKey Touch U2F Security Key (idProduct=0120)
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1050", ATTRS{idProduct}=="0120", GROUP="plugdev", MODE="0664", TAG+="uaccess"
+
+# Yubico YubiKey OTP+FIDO+CCID (idProduct=0407)
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1050", ATTRS{idProduct}=="0407", GROUP="plugdev", MODE="0664", TAG+="uaccess"
+
+# Yubico devices - generic rule
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1050", GROUP="plugdev", MODE="0664", TAG+="uaccess"
+
+# USB device permissions
+SUBSYSTEM=="usb", ATTR{idVendor}=="1050", ATTR{idProduct}=="0120", GROUP="plugdev", MODE="0664"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1050", ATTR{idProduct}=="0407", GROUP="plugdev", MODE="0664"
