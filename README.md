@@ -149,9 +149,13 @@ winget install --interactive --exact dorssel.usbipd-win
 
 Issues and pull requests are welcome! Please feel free to contribute improvements.
 
+## Author
+
+Created by NOGUCHI Shoji ([@ngc-shj](https://github.com/ngc-shj))
+
 ## License
 
-MIT License - See LICENSE file for details.
+MIT License - see [LICENSE](LICENSE) for details.
 
 ## Notes
 

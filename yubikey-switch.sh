@@ -1,7 +1,7 @@
 #!/bin/bash
 # yubikey-switch.sh
 # Yubikey WSL2 Switch - Switch Yubikey between Windows and WSL2
-# Author: Your Name
+# Author: NOGUCHI Shoji
 # License: MIT
 
 TARGET=${1:-"status"}
